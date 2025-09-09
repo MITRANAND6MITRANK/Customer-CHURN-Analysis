@@ -1,3 +1,5 @@
+![Dashboard Screenshot](DASHBOARD.png)
+
 Customer Churn Analysis
 Project Overview
 
