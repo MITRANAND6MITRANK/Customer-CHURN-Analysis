@@ -1,69 +1,36 @@
 ![Dashboard Screenshot](DASHBOARD.png)
 
-Customer Churn Analysis
-Project Overview
+# Customer Churn Analysis
 
-This project is an end-to-end analysis of customer churn, demonstrating the complete workflow from raw data to actionable insights. The goal is to identify patterns that predict churn and provide dashboards for management decision-making.
+## Project Overview
+End-to-end BI project analyzing customer churn using SQL, Power Query, DAX, and Power BI dashboards. Goal: identify churn patterns and provide actionable insights.
 
-Key highlights:
+### Key Highlights
+- Full data pipeline: SQL → Power Query → DAX → Power BI
+- Churn prediction and analysis
+- Clean, reproducible workflow
 
-Full data pipeline: SQL → Power Query → DAX → Power BI dashboards
+## Project Pipeline
+### 1. Data (01_data/)
+- Raw_data.csv → Original dataset
+- cleaned.csv → Cleaned & pre-processed data
 
-Customer churn prediction and analysis
+### 2. SQL Queries (02_sql/)
+- sql_churn_data_pipeline.sql → Data cleaning, feature engineering, churn calculation
 
-Clean, reproducible structure for end-to-end BI workflow
+### 3. Power Query (03_power_query/)
+- Transformations: Churn status, Age/Tenure grouping, Services unpivot
 
-Project Pipeline
-1️⃣ Data (01_data/)
+### 4. DAX Measures (04_dax_measures/)
+- Summary KPIs: Total Customers, Total Churn, Churn Rate, New Joiners
+- Churn Prediction KPIs: Count of predicted churners, dynamic titles
 
-Raw_data.csv → Original customer dataset
+## Tools & Technologies
+PostgreSQL | Power BI (Power Query, DAX) | CSV | Git/GitHub
 
-cleaned.csv → Cleaned and pre-processed data ready for analysis
+## Key Insights
+- Visual dashboards for monitoring churn
+- KPI metrics to track customer retention
+- Predictive insights to identify at-risk customers
+- Demonstrates end-to-end BI skills for real-world analytics
 
-2️⃣ SQL Queries (02_sql/)
-
-sql_churn_data_pipeline.sql → SQL scripts for data cleaning, feature engineering, and churn calculation
-
-3️⃣ Power Query Transformations (03_power_query/)
-
-Step-by-step transformations performed in Power Query to shape and map features
-
-Examples:
-
-Churn status calculation
-
-Age and tenure grouping
-
-Services unpivot for better analytics
-
-4️⃣ DAX Measures (04_dax_measures/)
-
-Summary page KPIs:
-
-Total Customers, Total Churn, Churn Rate, New Joiners
-
-Churn Prediction Page:
-
-Count of predicted churners
-
-Dynamic title measures for dashboard visuals
-
-Tools & Technologies
-
-Database: PostgreSQL
-
-BI & Analytics: Power BI (Power Query, DAX)
-
-Data Handling: CSV, SQL transformations
-
-Version Control: Git & GitHub
-
-Key Insights & Outcomes
-
-Visual dashboards for monitoring churn
-
-KPI metrics to track customer retention
-
-Predictive insights to identify customers at risk of churn
-
-Demonstrated end-to-end BI project skills suitable for recruiters
