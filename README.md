@@ -1,3 +1,4 @@
+![Dashboard Screenshot](DASHBOARD.png)
 
 # Customer Churn Analysis
 
